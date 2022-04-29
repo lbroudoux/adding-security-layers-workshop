@@ -9,6 +9,10 @@ The overall architecture of the application that you will deploy is quite simple
 .fruits-catalog application architecture
 image::images/fruits-catalog-arch.png[fruits-catalog architecture, 600]
 
+The `fruits-catalog` application is a very simple app made of 3 components: an http://angular.io[Angular frontend], a https://spring.io/projects/spring-boot[Spring Boot] backend and a https://www.mongodb.com/[MongoDB] datastore. Pretty classic! At first, the application has not been thought of to be ran into containers and to be secure. But we will handle that!
+
+'''
+
 During the different steps of the workshop you will use CodeReady Workspaces, an online IDE is running on Red Hat OpenShift as well as the OpenShift Console to enhance this application from the security point of view.
 
 You will learn how to:
